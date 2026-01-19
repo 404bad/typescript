@@ -1,0 +1,7 @@
+npm i -D typescript --> this install typescript dev dependency
+
+npx tsc --init --> generate a tsconfig,hjson
+
+npx tsc
+
+
