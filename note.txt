@@ -1,7 +1,19 @@
-npm i -D typescript --> this install typescript dev dependency
+npm i -D typescript --> Install TypeScript as a dev dependency
 
-npx tsc --init --> generate a tsconfig,hjson
+npx tsc --init --> nitialize a TypeScript project 
+This generates a tsconfig.json file (sometimes referred to as .hjson in human-readable format) in your project.
+The tsconfig.json file contains configuration options for the TypeScript compiler, like target version, module system, and include/exclude paths.
 
 npx tsc
+This runs the TypeScript compiler and transpiles .ts files into .js files according to the rules defined in tsconfig.json.
 
+annotation: 
+Explicitly specifying types for variables, function parameters, and return types.
+let name: string = "Kailash"; // annotation
+
+
+infrence :
+TypeScript automatically determines the type of a variable based on its value.
+Example:
+let age = 25; // inferred as number
 
