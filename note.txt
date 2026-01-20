@@ -17,3 +17,10 @@ TypeScript automatically determines the type of a variable based on its value.
 Example:
 let age = 25; // inferred as number
 
+
+npm i some-library
+npm i -D @types/some-library 
+
+if some how this is not availbe
+
+some-ibrary.d.ts
